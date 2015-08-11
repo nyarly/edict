@@ -7,15 +7,15 @@ begin
       include Caliph::CommandLineDSL
 
       setting :caliph_shell
-      setting :env_hash
+      setting :env_hash, {}
       setting :command
 
       def self.shell
         @shell ||= Caliph.new
       end
 
-      def default_settings
-        self.caliph_shell = Edict::Command.shell
+      def setup
+        self.caliph_shell = Edict::Command.shell if field_unset?(:caliph_shell)
       end
 
       def build_command

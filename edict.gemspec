@@ -20,6 +20,12 @@ Gem::Specification.new do |spec|
   # Do this: y$@"
   # !!find lib bin doc spec spec_help -not -regex '.*\.sw.' -type f 2>/dev/null
   spec.files		= %w[
+    lib/edict.rb
+    lib/edict/rule.rb
+    lib/edict/command.rb
+    lib/edict/ssh-command.rb
+    spec/edict/command_spec.rb
+    spec/edict/ssh-command_spec.rb
   ]
 
   spec.test_file        = "spec_help/gem_test_suite.rb"
