@@ -1,3 +1,5 @@
+require 'calibrate'
+
 module Edict
   class Rule
     include Calibrate::Configurable
