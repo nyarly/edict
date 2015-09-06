@@ -1,3 +1,4 @@
 *.sw?
 .cadre/
 corundum/
+pkg/
