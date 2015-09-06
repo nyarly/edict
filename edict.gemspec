@@ -1,7 +1,7 @@
 Gem::Specification.new do |spec|
   spec.name		= "edict"
   #{MAJOR: incompatible}.{MINOR added feature}.{PATCH bugfix}-{LABEL}
-  spec.version		= "0.0.1"
+  spec.version		= "0.0.2"
   author_list = {
     "Judson Lester" => "judson@lrdesign.com",
     "Patricia Ho" => "patricia@lrdesign.com"
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   EndDescription
 
   spec.rubyforge_project= spec.name.downcase
-  spec.homepage        = ""
+  spec.homepage        = "git@git.lrdesign.com:lrd/edict.git"
   spec.required_rubygems_version = Gem::Requirement.new(">= 0") if spec.respond_to? :required_rubygems_version=
 
   # Do this: y$@"
