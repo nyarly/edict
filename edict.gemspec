@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
   EndDescription
 
   spec.rubyforge_project= spec.name.downcase
-  spec.homepage        = "git@git.lrdesign.com:lrd/edict.git"
+  spec.homepage        = "https://github.com/nyarly/edict"
   spec.required_rubygems_version = Gem::Requirement.new(">= 0") if spec.respond_to? :required_rubygems_version=
 
   # Do this: y$@"
